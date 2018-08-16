@@ -52,7 +52,7 @@ if($method = "POST"){
     //on créée la réponse
 	$response = new \stdClass();
     //on insère le speech dans la réponse
-	$response->fulfillmentText = $DFresult;
+	$response->fulfillmentText = "hhhh";
 
     //on écrit ici la source de la réponse : ici : webhook
 	$response->source= "webhook2";
