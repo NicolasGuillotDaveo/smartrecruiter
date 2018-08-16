@@ -11,7 +11,8 @@ if($method = "POST"){
     //on prend la valeur de l'action
 	$text= $json->queryResult->action;
     //on prend la valeur de la réponse que DialogFlow nous propose
-	$DFresult= $json->queryResult->fulfillmentText;
+    $DFresult= $json->queryResult->fulfillmentText;
+    $speech=$DFresult;
 
 
 	switch($text){
